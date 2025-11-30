@@ -1,0 +1,6 @@
+docker exec -it spark-master bash
+Run the streaming-socket.py in 1 terminal
+
+Then run this command in another terminal
+docker exec -it spark-master spark-submit --master spark://spark-master:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.13:3.5.0 /opt/spark/jobs/spark-streaming.py
+

@@ -1,0 +1,14 @@
+#Ignore Dataser folder
+datasets/
+
+#Ignore vitural environment
+venv/
+
+#Ignore config file
+config_my.py
+
+#Ignore other junk
+__pychache__/
+*.pyc
+*.pyo
+

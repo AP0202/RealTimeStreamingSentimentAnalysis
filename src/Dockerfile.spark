@@ -1,0 +1,10 @@
+FROM apache/spark:4.1.0-preview4-scala2.13-java21-python3-r-ubuntu
+
+USER root
+
+COPY requirements.txt /requirements.txt
+
+RUN apt-get update && \
+    apt-get install -y python3-pip && \
+    pip3 install -r /requirements.txt && \
+    apt-get clean
