@@ -3,10 +3,8 @@ Table of Contents
 
     Introduction
     System Architecture
-    What You'll Learn
     Technologies
-    Getting Started
-    Watch the Video Tutorial
+
 
 Introduction
 
