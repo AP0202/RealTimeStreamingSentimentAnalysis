@@ -1,0 +1,2 @@
+Download the dataset from this source -> https://business.yelp.com/data/resources/open-dataset/
+We want the yelp_academic_dataset_review.json as our dataset
